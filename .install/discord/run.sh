@@ -1,7 +1,6 @@
 DIR=`dirname "$0"`
 
-if [[ -f "$DIR/Discord.deb" ]]
-then
+if ! test -f "$DIR/Discord.deb"; then
     echo "Downloading Discord ..."
     wget "https://discord.com/api/download?platform=linux&format=deb" -O Discord.deb
 fi
