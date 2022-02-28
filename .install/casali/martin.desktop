@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=フローティング Martin
+Comment=讓 MARTIN 標誌圍繞畫面
+Exec=/usr/lib/mate-screensaver/mate-screensaver/floaters /usr/share/pixmaps/martin.svg -r -n 50
+TryExec=/usr/lib/mate-screensaver/mate-screensaver/floaters
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Screensaver;
+Keywords=martin;
+OnlyShowIn=MATE;

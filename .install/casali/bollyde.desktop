@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=フローティング BOLLYDE
+Comment=讓 BOLLYDE 標誌圍繞畫面
+Exec=/usr/lib/mate-screensaver/mate-screensaver/floaters /usr/share/pixmaps/bollyde.svg -r -n 50
+TryExec=/usr/lib/mate-screensaver/mate-screensaver/floaters
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Screensaver;
+Keywords=bollyde;
+OnlyShowIn=MATE;
